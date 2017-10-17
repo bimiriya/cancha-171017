@@ -1,0 +1,100 @@
+.cancha {
+	position: relative;
+	background-color: green;
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.marco {
+	position: absolute;
+	border: 10px solid white;
+	width: 1040px;
+	height: 440px;
+	left: 20px;
+	top: 20px;
+}
+
+.arco-left {
+	position: absolute;
+	border: 10px solid white;
+	border-left: transparent;
+	height: 220px;
+	width: 110px;
+	left: 20px;
+	top: 130px;
+}
+
+.arco-right {
+	position: absolute;
+	border: 10px solid white;
+	border-right: transparent;
+	height: 220px;
+	width: 110px;
+	right: 20px;
+	top: 130px;
+}
+
+.middle {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border: 10px solid white;
+	border-radius: 50%;
+	left: 440px;
+	top: 150px;
+}
+
+.left-ball i {
+	position: absolute;
+	font-size: 40px;
+	top: 150px;
+	left: 120px;
+}
+
+.ball-bg1 {
+	position: absolute;
+	background-color: white;
+	width: 39px;
+	height: 39px;
+	top: 150px;
+	left: 120px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.right-ball i {
+	position: absolute;
+	font-size: 40px;
+	top: 300px;
+	right: 160px;
+}
+
+.ball-bg2 {
+	position: absolute;
+	background-color: white;
+	width: 39px;
+	height: 39px;
+	top: 300px;
+	right: 160px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.center-ball i {
+	position: absolute;
+	font-size: 40px;
+	top: 230px;
+	right: 530px;
+}
+
+.ball-bg3 {
+	position: absolute;
+	background-color: white;
+	width: 39px;
+	height: 39px;
+	top: 230px;
+	right: 530px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px grey;
+}
